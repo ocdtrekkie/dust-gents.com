@@ -1,0 +1,74 @@
+.pcs h1 {
+  color: #8f8f8f;
+}
+
+.pcs .message {
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+  border: 1px solid grey;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.pcs .error {
+  color: red;
+  font-size: 14px;
+  padding: 10px;
+  border: 1px solid grey;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.pcs .timezone-label {
+  color: yellow;
+}
+
+.pcs form .item {
+  display: block;
+  padding-top: 1em;
+}
+
+.pcs form input.submit {
+  margin-top: 2em;
+  padding-left: 6em;
+  padding-right: 6em;
+}
+
+.pcs form input.edit {
+  background-image: url(images/icon_edit.gif);
+  height: 21px;
+  width: 29px;
+  margin: 0;
+  padding: 0;
+}
+
+.pcs form input.delete {
+  background-image: url(http://forums.dust-gents.com/styles/CoDFaction/imageset/en/icon_post_delete.gif);
+  height: 21px;
+  width: 29px;
+  margin: 0;
+  padding: 0;
+}
+
+
+.pcs .event-edit-form,
+.pcs .event-delete-form {
+  display: inline;
+}
+
+.pcs form input.district_location,
+.pcs form input.enemy_corp,
+.pcs form input.friendly_corp,
+.pcs form input.platoon_leader,
+.pcs form input.backup_platoon_leaders,
+.pcs form input.title,
+.pcs form input.link {
+  width: 600px;
+}
+
+.pcs .debug {
+  font-size: 10px;
+  color: rgb(80, 80, 80);
+  margin: 20px;
+}

@@ -1,0 +1,29 @@
+TODOs
+
+Feedback from Soraya:
+Possible workflow:
+- Add Event
+- Input time, event type, platoon leader, sponsoring corp into the form.
+- Thread in forum auto-created with all info in first post.
+- Event created in table with calendar info and link to thread.
+That way, we don't really need an edit ability so much as a delete ability. Events deleted or passed could  even have
+their threads automatically moved from Upcoming Events to the Recycle Bin board, if we wanted to get fancy.
+Regarding time entry/display, as noted, I'd like to enter and display EVE time in 24h format, though people's local
+display should be 12h. It also might not be a bad idea to have events list the hours/minutes until the event in a
+column as well. As of the page load, of course.
+
+- Validate that new upcoming event date is in the future
+- Default values for add event form (current month, date and year). Time should be empty by default.
+- Keep form values after failed validation and display them in form
+- Icons instead of big buttons for Edit and Delete
+- View event page
+- Events archive
+- Replace date controls with calendar popup
+- Add timezone selector to add event (defaults to EVE/GMT)
+- Add optional description to event
+- Icons for event types
+- Add another types of events - FW?
+- District location validation?
+- Platoon commander field for event
+- Requested roles for event
+- Ability to submit applications for open roles for the event

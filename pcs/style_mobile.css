@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+}
+
+.pcs h1 {
+  color: #000000;
+}
+
+.pcs .message {
+  color: black;
+}
+
+.pcs .error {
+  color: red;
+}
+
+.pcs .timezone-label {
+  color: #006331;
+}
+
+.pcs a {
+  display: block;
+  width: auto;
+  padding: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: antiquewhite;
+  text-decoration: none;
+  color: darkgreen;
+}
+
+.pcs .event,
+.pcs .community-event {
+  margin-bottom: 2em;
+}
+
+.pcs form input.edit,
+.pcs form input.delete {
+  background-image: none;
+  width: auto;
+  height: auto;
+  padding: 5px;
+}
+
+.pcs form input.district_location,
+.pcs form input.enemy_corp,
+.pcs form input.friendly_corp,
+.pcs form input.platoon_leader,
+.pcs form input.backup_platoon_leaders,
+.pcs form input.title,
+.pcs form input.link {
+  width: 100%;
+}
